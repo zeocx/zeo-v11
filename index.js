@@ -182,7 +182,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://zeeoneofc.github.io/'
+apiku = 'https://github.com/zeocx'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -5530,7 +5530,7 @@ reply('Emror')
 }
 break
 case 'tes': case 'bot':
-var ini_gopayyp = `${ucapannya2}\nBot sudah on kak silahkan di pakai`
+var ini_gopayyp = `${ucapannya2}\nbot nya dah on om`
 var buttonsos = [
 {buttonId: 'Menu', buttonText: {displayText: 'Menu'}, type: 1},
 {buttonId: 'runtime', buttonText: {displayText: 'Runtime'}, type: 1}]
