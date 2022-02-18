@@ -182,7 +182,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://github.com/zeocx'
+apiku = 'https://zeeoneofc.github.io/'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -1236,22 +1236,22 @@ const bayarLimit = (sender, amount) => {
             
             const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `bengi cok ${pushname}`
 }
         if(time2 < "19:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `bengi cok 🌚 ${pushname}`
 }
         if(time2 < "18:00:00"){
-        var ucapannya2 = `Afternoon 🌅 ${pushname}`
+        var ucapannya2 = `surub cok 🌅 ${pushname}`
 }
         if(time2 < "15:00:00"){
-        var ucapannya2 = `GoodDay 🌞 ${pushname}`
+        var ucapannya2 = `awan cok 🌞 ${pushname}`
 }
         if(time2 < "11:00:00"){
-        var ucapannya2 = `Morning 🌄 ${pushname}`
+        var ucapannya2 = `isuk cok 🌄 ${pushname}`
 }
         if(time2 < "05:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `bengi cok 🌚 ${pushname}`
 }
 function clockString(ms) {
       let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000);
@@ -1270,11 +1270,11 @@ if (autobio === false) return
     }}
 		mess = {
 			wait: '```[ ! ] proses sayangg...```',
-			success: '```[ ✓ ] done```',
-			wrongFormat: 'format salah, coba liat lagi di menu',
+			success: '```[ ✓ ]``` done sayangg',
+			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
 				stick: 'Itu bukan stiker',
-				Iv: 'link nya eror dek'
+				Iv: 'Linknya error:v'
 			},
 			only: {
 				group: 'only Group',
@@ -2271,10 +2271,14 @@ ini_anu =`${ucapannya2}
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
 ├ Nomor : @${sender.split('@')[0]}
 ├ Me : ${mek.key.fromMe ? 'True' : 'False'}
-╰❒ Owner : ${isOwner ? 'True' : `False`}
+╰❒ Owner : ${isOwner ? 'True' : `False`
+╭─❒ 
+├ OJOK LALI DONASI LUR
+╰❒ 
+
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `ojok spam cok, kek i jarak cok lek ngongkon!\n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -3376,7 +3380,7 @@ break
 					ran = getRandom('.png')
 					exec(`ffmpeg -i ${mediaa} ${ran}`, (err) => {
 					fs.unlinkSync(mediaa)
-					if (err) return reply('Yah gagal, coba ulangi ^_^')
+					if (err) return reply('kapok raiso, baleni cok')
 					buffer = fs.readFileSync(ran)
 					fakethumb(buffer,'Webp To Image')
 					fs.unlinkSync(ran)
@@ -4073,7 +4077,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}, 2000)
 					setTimeout( () => {
 					alpha.updatePresence(from, Presence.composing) 
-					reply('```Byeee 👋```')
+					reply('```daaa👋```')
 					}, 0)
 					break     
 		    case 'leave2':
@@ -5316,8 +5320,8 @@ reply(lang.anjawaOff(command))
 case 'autobio':
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 if (args[0] === "on") {
-if (autobio === true) return reply(lang.anjawaUdhOn(command))
-autobio = true
+if (autobio === false) return reply(lang.anjawaUdhOn(command))
+autobio = false
 reply(lang.anjawaOn(command))
 } else if (args[0] === "off") {
 if (autobio === false) return
@@ -5346,8 +5350,8 @@ reply(lang.anjawaOff(command))
 case 'autovn':
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 if (args[0] === "on") {
-if (autovn === true) return reply(lang.anjawaUdhOn(command))
-autovn = true
+if (autovn === false) return reply(lang.anjawaUdhOn(command))
+autovn = false
 reply(lang.anjawaOn(command))
 } else if (args[0] === "off") {
 if (autovn === false) return
@@ -5530,7 +5534,7 @@ reply('Emror')
 }
 break
 case 'tes': case 'bot':
-var ini_gopayyp = `${ucapannya2}\nbot nya dah on om`
+var ini_gopayyp = `${ucapannya2}\nbot e wes on cok, gawe en`
 var buttonsos = [
 {buttonId: 'Menu', buttonText: {displayText: 'Menu'}, type: 1},
 {buttonId: 'runtime', buttonText: {displayText: 'Runtime'}, type: 1}]
